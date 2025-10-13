@@ -5,9 +5,16 @@ import streamlit as st
 # Configuracion de la pagina de la app
 st.set_page_config(page_title="Mi primer Chatbot", page_icon="☝️")
 st.title("☝️ Chatbot Basico con langchain")
-st.markdown("Chatbot hecho con Langchain + Streamlit. ¡Escribe tu mensaje para comenzar!")
+st.markdown("Este Chatbot está hecho con Langchain + Streamlit. ¡Escribe tu mensaje para comenzar!")
 
-chat_model = ChatOpenAI(model="gpt-4o-mini", temperature=0.5)
+# Generar el sidebar para ajustar temperatura y seleccionar modelo
+with st.sidebar:
+    st.header("Configuración")
+    temperature = st.slider("Temperatura", 0.0, 1.0, 0.5, 0.1)
+    model_name = st.selectbox("Modelo", ["gpt-3.5-turbo", "gpt-4", "gpt-4o-mini"])
+
+    # Recrear el modelo con los nuevos parametros
+    chat_model = ChatOpenAI(model=model_name, temperature=temperature)
 
 
 # Inicializar el historial de mensajes
