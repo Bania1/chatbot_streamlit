@@ -8,3 +8,20 @@ st.title("☝️ Chatbot Basico con langchain")
 st.markdown("Chatbot hecho con Langchain + Streamlit. ¡Escribe tu mensaje para comenzar!")
 
 chat_model = ChatOpenAI(model="gpt-4o-mini", temperature=0.5)
+
+
+# Inicializar el historial de mensajes
+if 'mensajes' not in st.session_state:
+    st.session_state.mensajes = []
+
+# Mostrar mensajes previos en la interfaz
+for msg in st.session_state.mensajes:
+    if isinstance(msg, SystemMessage):
+        # No muestro el mensaje por pantalla
+        continue
+    
+    role = "assistant" if isinstance(msg, AIMessage) else "user"
+    
+    with st.chat_message(role):
+        st.markdown(msg.content)
+        
