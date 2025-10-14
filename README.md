@@ -130,7 +130,3 @@ Este proyecto es de **código abierto** bajo la licencia [MIT](LICENSE).
 
 Si te ha sido útil,
 🌟 **dale una estrella** al repositorio y compártelo 🚀
-
-```
-
-```
