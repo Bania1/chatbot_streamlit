@@ -53,7 +53,7 @@ Asegúrate de tener tu API Key de OpenAI correctamente configurada.
 👀 Capturas de pantalla
 A continuación, puedes ver un vistazo de la interfaz y funcionamiento del chatbot:
 
-<p align="center"> <img src="Captura-de-pantalla-2025-10-14-015932.jpg" alt="Vista inicial del Chatbot Langchain" width="650"/> </p> <p align="center"> <img src="Captura-de-pantalla-2025-10-14-020109.jpg" alt="Ejemplo de conversación y código en el Chatbot" width="650"/> </p>
+<p align="center"> <img src="images/Captura de pantalla 2025-10-14 015932.png" alt="Vista inicial del Chatbot Langchain" width="650"/> </p> <p align="center"> <img src="images/Captura de pantalla 2025-10-14 020109.png" alt="Ejemplo de conversación y código en el Chatbot" width="650"/> </p>
 
 🛠️ Personaliza tu chatbot
 ¿Quieres cambiar el prompt o agregar otras funciones?
