@@ -56,7 +56,7 @@ Código comentado y plantilla de prompts flexible para adaptar a tus necesidades
 
 Asegúrate de tener Python instalado (versión 3.10 o superior). Luego:
 
-````bash
+```bash
 # 1️⃣ Clona este repositorio
 git clone https://github.com/Bania1/chatbot_streamlit.git
 cd chatbot_streamlit
@@ -66,46 +66,71 @@ pip install -r requirements.txt
 
 # 3️⃣ Ejecuta la aplicación
 streamlit run app.py
+```
 
 > ⚠️ **Importante:** Antes de ejecutar, configura tu **API Key de OpenAI** como variable de entorno:
 >
 > **Linux / macOS**
+>
 > ```bash
 > export OPENAI_API_KEY="tu_api_key_aquí"
 > ```
 >
 > **Windows (PowerShell)**
+>
 > ```bash
 > setx OPENAI_API_KEY "tu_api_key_aquí"
 > ```
 
-👀 Capturas de pantalla
-<p align="center"> <img src="images/Captura de pantalla 2025-10-14 015932.png" alt="Vista inicial del Chatbot Langchain" width="650"/><br><br> <img src="images/Captura de pantalla 2025-10-14 020109.png" alt="Ejemplo de conversación y código en el Chatbot" width="650"/> </p>
-🛠️ Personaliza tu chatbot
+---
+
+## 👀 Capturas de pantalla
+
+<p align="center">
+  <img src="images/Captura de pantalla 2025-10-14 015932.png" alt="Vista inicial del Chatbot Langchain" width="650"/><br><br>
+  <img src="images/Captura de pantalla 2025-10-14 020109.png" alt="Ejemplo de conversación y código en el Chatbot" width="650"/>
+</p>
+
+---
+
+## 🛠️ Personaliza tu chatbot
+
 ¿Quieres ir más allá? Puedes:
 
-🧾 Editar la plantilla del prompt para definir la personalidad del asistente.
+- 🧾 Editar la plantilla del prompt para definir la personalidad del asistente.
+- 🎚️ Agregar nuevas opciones en el sidebar (modelo, temperatura, idioma...).
+- 🧠 Integrar **memoria conversacional** u otras herramientas avanzadas de LangChain.
+- 🔗 Conectar APIs externas o módulos personalizados.
 
-🎚️ Agregar nuevas opciones en el sidebar (modelo, temperatura, idioma...).
+---
 
-🧠 Integrar memoria conversacional u otras herramientas avanzadas de LangChain.
+## 🤝 Contribuciones
 
-🔗 Conectar APIs externas o módulos personalizados.
+¡Toda sugerencia, mejora o _pull request_ es bienvenida!
+Siéntete libre de **forkear el proyecto**, proponer cambios o reportar _issues_.
 
-🤝 Contribuciones
-¡Toda sugerencia, mejora o pull request es bienvenida!
-Siéntete libre de forkear el proyecto, proponer cambios o reportar issues.
+---
 
-💡 Recursos útiles
-📘 LangChain Documentation
-🎨 Streamlit Documentation
-🔑 OpenAI API Reference
+## 💡 Recursos útiles
 
-📄 Licencia
-Este proyecto es de código abierto bajo la licencia MIT.
-¡Experimenta y crea tu propio WikiBot Pro personalizado!
+📘 [LangChain Documentation](https://docs.langchain.com)
+🎨 [Streamlit Documentation](https://docs.streamlit.io)
+🔑 [OpenAI API Reference](https://platform.openai.com/docs)
 
-⭐ ¿Te gusta el proyecto?
+---
+
+## 📄 Licencia
+
+Este proyecto es de **código abierto** bajo la licencia [MIT](LICENSE).
+¡Experimenta y crea tu propio **WikiBot Pro** personalizado!
+
+---
+
+## ⭐ ¿Te gusta el proyecto?
+
 Si te ha sido útil,
-🌟 dale una estrella al repositorio y compártelo 🚀
-````
+🌟 **dale una estrella** al repositorio y compártelo 🚀
+
+```
+
+```
